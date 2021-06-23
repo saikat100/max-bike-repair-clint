@@ -1,0 +1,32 @@
+.login-form {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #ababab;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 570px;
+  height: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-btn {
+  background-image: linear-gradient(to bottom, #275a53 0%, #275a53 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.login-section {
+  display: flex;
+  align-items: center;
+  border: 5px solid #d3d3d3;
+  border-radius: 30px;
+  padding: 2px 20px;
+  margin: 0 0 10px 0;
+  height: 55px;
+  margin-bottom : 100px;
+}

@@ -1,0 +1,30 @@
+
+.header-container{
+position: relative;
+width: 100%;
+height: 700px;
+
+background: #7962fb28;
+
+}
+.header-container::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: rgb(77, 67, 67);
+  clip-path: polygon(100% 36%, 0% 100%, 100% 100%);
+}
+
+.btn-all {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  background-color: rgb(197, 49, 49);
+}
+.btn-all:hover {
+  background-color: #1b7ebb
+}
